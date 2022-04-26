@@ -1,0 +1,15 @@
+
+
+.container .why_metaverse .why_metaverse_content .why_metaverse-link{
+    border: none;
+    color: #09b1ed;
+    font-size: 21px;
+    text-transform: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.container .why_metaverse .why_metaverse_content .why_metaverse-link:hover{
+    background-color: unset;
+    color: #fff;
+}
