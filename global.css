@@ -40,7 +40,7 @@ body {
 }
 
 .header_logo img {
-  height: 70px;
+  height: 64px;
 }
 
 .header .navbar {
@@ -62,8 +62,6 @@ body {
 }
 
 .header .navbar_child {
-  margin-left: 12px;
-  margin-right: 12px;
   padding: 0 10px 0 10px;
   position: relative;
   height: 100%;

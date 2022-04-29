@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./static/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="./global.css" />
 		<link rel="stylesheet" type="text/css" href="./index.css" />
         <link rel="stylesheet" type="text/css" href="./static/css/grid.css">
+		<link rel="stylesheet" type="text/css" href="./static/css/base.css">
         <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+		<link rel="stylesheet" type="text/css" href="./static/css/button.css">
         <link rel="stylesheet" type="text/css" href="./static/css/learn.css">
 		<script
 			src="https://kit.fontawesome.com/b8f93072f7.js"
@@ -17,230 +20,323 @@
 	</head>
 
 	<body>
-		<header class="header">
-			<a href="/" title="Home" class="header_logo">
-				<img
-					draggable="false"
-					src="./images/Metaverse_Logo_2.svg"
-					alt="Metaverse Logo"
-				/>
-			</a>
-			<nav class="navbar">
-				<ul class="navbar_parent">
-					<li class="navbar_child">
-						<a href="#" class="navbar_title"> ecosystem </a>
-						<ul class="subnav">
-							<li class="subnav_child">
-								<a href="#">wallet</a>
-							</li>
-							<li class="subnav_child">
-								<a href="#">explorer</a>
-							</li>
-							<li class="subnav_child">
-								<a href="#">gene finace</a>
-							</li>
-							<li class="subnav_child">
-								<a href="#">stickers</a>
-							</li>
-						</ul>
-						<div class="navbar_child_line"></div>
-					</li>
-					<li class="navbar_child">
-						<a href="#" class="navbar_title"> documents </a>
-						<ul class="subnav">
-							<li class="subnav_child">
-								<a href="#">developer docs</a>
-							</li>
-							<li class="subnav_child">
-								<a href="#">whitepaper v3</a>
-							</li>
-							<li class="subnav_child">
-								<a href="#">digital identity whitepaper</a>
-							</li>
-							<li class="subnav_child">
-								<a href="#">pillars of creation whitepaper</a>
-							</li>
-							<li class="subnav_child"><a href="#">github</a></li>
-						</ul>
-						<div class="navbar_child_line"></div>
-					</li>
-					<li class="navbar_child">
-						<a href="#" class="navbar_title"> community </a>
-						<ul class="subnav">
-							<li class="subnav_child"><a href="#">learn</a></li>
-						</ul>
-						<div class="navbar_child_line"></div>
-					</li>
-					<li class="navbar_child">
-						<a href="#" class="navbar_title"> legacy chain </a>
-						<ul class="subnav">
-							<li class="subnav_child"><a href="#">wallet</a></li>
-							<li class="subnav_child">
-								<a href="#">explorer</a>
-							</li>
-						</ul>
-						<div class="navbar_child_line"></div>
-					</li>
-					<li class="navbar_child">
-						<a href="./foundation.html" class="navbar_title">
-							foundation
-						</a>
-						<div class="navbar_child_line"></div>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<main class="container">
-			<div class="intro_container">
-				<div class="intro_container_center">
-					<img
-						draggable="false"
-						src="./images/GIF6-Optmized.gif"
-						alt="GIF Image"
-					/>
-					<div class="intro_container_title">
+		
+		<main id="container" class="container ">
+			<div class="grid grid-mobile">
+				<div class="intro_container_center" style="padding: 0px!important;">
+					<header class="header">
+						<div class="wide row">
+							<div class="col mb-3">
+								<a href="/" title="Home" class="header_logo">
+									<img
+										draggable="false"
+										src="./images/Metaverse_Logo_2.svg"
+										alt="Metaverse Logo"
+									/>
+								</a>
+							</div>
+							<div class="col mb-9">
+								<div class="header-icon k-flex alignt-center justify-right">
+									<span id="open-menu">
+										<i class="lines"></i>
+										<i class="lines lines-2"></i>
+										<i class="lines lines-3"></i>
+									</span>
+								</div>
+								<nav class="navbar">
+									<ul class="navbar_parent">
+										<li class="navbar_child option-disable">
+											<a href="#" class="navbar_title"> ecosystem </a>
+											<ul class="subnav">
+												<li class="subnav_child">
+													<a href="#">wallet</a>
+												</li>
+												<li class="subnav_child">
+													<a href="#">explorer</a>
+												</li>
+												<li class="subnav_child">
+													<a href="#">gene finace</a>
+												</li>
+												<li class="subnav_child">
+													<a href="#">stickers</a>
+												</li>
+											</ul>
+											<div class="navbar_child_line"></div>
+										</li>
+										<li class="navbar_child option-disable">
+											<a href="#" class="navbar_title"> documents </a>
+											<ul class="subnav">
+												<li class="subnav_child">
+													<a href="#">developer docs</a>
+												</li>
+												<li class="subnav_child">
+													<a href="#">whitepaper v3</a>
+												</li>
+												<li class="subnav_child">
+													<a href="#">digital identity whitepaper</a>
+												</li>
+												<li class="subnav_child">
+													<a href="#">pillars of creation whitepaper</a>
+												</li>
+												<li class="subnav_child"><a href="#">github</a></li>
+											</ul>
+											<div class="navbar_child_line"></div>
+										</li>
+										<li class="navbar_child option-disable">
+											<a href="#" class="navbar_title"> community </a>
+											<ul class="subnav">
+												<li class="subnav_child"><a href="#">learn</a></li>
+											</ul>
+											<div class="navbar_child_line"></div>
+										</li>
+										<li class="navbar_child option-disable">
+											<a href="#" class="navbar_title"> legacy chain </a>
+											<ul class="subnav">
+												<li class="subnav_child"><a href="#">wallet</a></li>
+												<li class="subnav_child">
+													<a href="#">explorer</a>
+												</li>
+											</ul>
+											<div class="navbar_child_line"></div>
+										</li>
+										<li class="navbar_child option-disable">
+											<a href="./foundation.html" class="navbar_title">
+												foundation
+											</a>
+											<div class="navbar_child_line"></div>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</header>
+
+				</div>
+				<div class="intro_container">
+					<div class="intro_container_center">
 						<img
 							draggable="false"
-							src="./images/TitleNew4.svg"
-							alt="Metaverse Logo"
+							src="./images/GIF6-Optmized.gif"
+							alt="GIF Image"
 						/>
-						<p>
-							Metaverse is an open source decentralized,
-							interoperable platform for programmable digital
-							assets and digital identities built on Substrate.
-						</p>
-						<a href="#">explore metaverse</a>
+						<div class="intro_container_title">
+							<img
+								draggable="false"
+								src="./images/TitleNew4.svg"
+								alt="Metaverse Logo"
+							/>
+							<p>
+								Metaverse is an open source decentralized,
+								interoperable platform for programmable digital
+								assets and digital identities built on Substrate.
+							</p>
+							<a href="#">explore metaverse</a>
+						</div>
+					</div>
+				</div>
+				<div class="why_metaverse">
+					<div class="intro_container_center">
+						<div class="row">
+							<div class="why_metaverse_title">
+								<h1>ESTABLISHED IN 2017</h1>
+							</div>
+							<div class="why_metaverse_content">
+								<p>Metaverse was inspired by Neal Stephenson’s 1992 science fiction novel “Snow Crash”. 
+									Metaverse was created to represent a similar virtual reality where humans control and interact using their own Avatars.
+								</p>
+								<p>Established in 2017, Metaverse is a front-running decentralized, open-source platform for digital asset architects. Most digital assets on Metaverse are created using the Metaverse Smart Token (MST) or the Metaverse Identifiable Token (MIT) for non-fungible tokens (NFTs). Metaverse is also known for its intuitive Digital Identity (Avatar) system and its secure ledger system supported by a hybrid consensus algorithm of PoW and PoS.</p>
+								<p>In 2020, we decided to revise the growth strategy to upgrade and expand its technologies to a wider community by building Metaverse on Substrate. This development will feature higher scalability, faster TPS, enhanced tools to build decentralized applications and allow other independent ledgers to connect, exchange information, and complete transactions.</p>
+							</div>
+							<a href="#"> read whilepaper </a>
+	
+						</div>
+
+					</div>
+					<!-- <div class="wide">
+					</div> -->
+				</div>
+				<div class="why_metaverse bg-dark color-white">
+					<div class="intro_container_center">
+						<div class="intro-container-content ">
+							<div class="row">
+								<div class="why_metaverse_title">
+									<h1>GETTING started</h1>
+								</div>
+								<div class="why_metaverse_content">
+									<p>
+										In order to navigate the Metaverse, you will first create need your own digital identity or Avatar. Once you have your Avatar you are able to interact with different features and applications within this decentralized universe.
+									</p>
+									<p>If you are not a navigator but an architect, please visit our <a class="why_metaverse-link" href="#">developer docs</a> to get started.
+										Or if you are a miner or a node operator, please <a class="why_metaverse-link" href="#">start here</a></p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="why_metaverse_content">
+									
+								</div>
+								<a href="#"> read whilepaper </a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="why_metaverse">
+					<div class="intro_container_center">
+						<div class="intro-container-content">
+							<div class="why_metaverse_title">
+								<h1>TRY METAVERSE</h1>
+							</div>
+							<div class="why_metaverse_content">
+								<p>
+									Sometimes the best way to learn is to try out the products! Check out the Web Wallet or Block Explorer
+								</p>
+							</div>
+							<div class="row">
+								<div class=" col c-6 mb-12">
+									<div class="why_metaverse_block">
+										<div class="why_metaverse_block_img k-flex alignt-center justify-center">
+											<img src="./images/Group-185.svg" alt="Group-185">
+										</div>in
+										<div class="divider-wrap">
+											<div style="height: 35px;" class="divider"></div>
+										</div>
+										<div class="why_metaverse_block_content">
+											<h2>Metaverse Wallet</h2>
+											<p>A secure open source wallet for your digital assets on Metaverse. The private keys will only be stored on your own device.</p>
+										</div>
+										<div class="btn-container k-flex alignt-center justify-center">
+											<button class="btn btn-regular btn-primary ">
+												<span>GO TO WALLET</span>
+											</button>
+										</div>
+									</div>
+								</div>
+								<div class=" col c-6 mb-12">
+									<div class="why_metaverse_block">
+										<div class="why_metaverse_block_img k-flex alignt-center justify-center">
+											<img src="./images/Group-185.svg" alt="Group-185">
+			
+										</div>
+										<div class="divider-wrap">
+											<div style="height: 35px;" class="divider"></div>
+										</div>
+										<div class="why_metaverse_block_content">
+											<h2>Metaverse Wallet</h2>
+											<p>A secure open source wallet for your digital assets on Metaverse. The private keys will only be stored on your own device.</p>
+										</div>
+										<div class="btn-container k-flex alignt-center justify-center">
+											<button class="btn btn-regular btn-primary ">
+												<span>GO TO WALLET</span>
+											</button>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="why_metaverse">
-                <div class="grid">
-                    <div class="row">
-                        </div>
-                        <div class="why_metaverse_title">
-                            <h1>ESTABLISHED IN 2017</h1>
-                        </div>
-                        <div class="why_metaverse_content">
-                            <p>Metaverse was inspired by Neal Stephenson’s 1992 science fiction novel “Snow Crash”. 
-                                Metaverse was created to represent a similar virtual reality where humans control and interact using their own Avatars.
-                            </p>
-                            <p>Established in 2017, Metaverse is a front-running decentralized, open-source platform for digital asset architects. Most digital assets on Metaverse are created using the Metaverse Smart Token (MST) or the Metaverse Identifiable Token (MIT) for non-fungible tokens (NFTs). Metaverse is also known for its intuitive Digital Identity (Avatar) system and its secure ledger system supported by a hybrid consensus algorithm of PoW and PoS.</p>
-                            <p>In 2020, we decided to revise the growth strategy to upgrade and expand its technologies to a wider community by building Metaverse on Substrate. This development will feature higher scalability, faster TPS, enhanced tools to build decentralized applications and allow other independent ledgers to connect, exchange information, and complete transactions.</p>
-                        </div>
-                        <!-- <div class="why_metaverse_video">
-                            <iframe
-                                title="The New Metaverse Blockchain: Simply Explained in Less Than 2 Minutes"
-                                width="100%"
-                                height="608"
-                                src="https://www.youtube.com/embed/kThntjjYUQk?feature=oembed"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            ></iframe>
-                        </div>
-                        <div class="why_metaverse_cards">
-                            <div class="why_metaverse_cards_child">
-                                <div class="why_metaverse_cards_child_top">
-                                    <img
-                                        draggable="false"
-                                        src="./images/InterIcon.svg"
-                                        alt="InterIcon"
-                                    />
-                                    <h3>INTEROPERABILITY</h3>
-                                </div>
-                                <h4>
-                                    Allowing anyone to build smart contracts and deploy
-                                    them to the Metaverse chain, using tools like
-                                    MetaMask, Remix, and Truffle. Smart contracts will
-                                    be compatible through the provided support for
-                                    Solidity as well as for anything that compiles to
-                                    EVM bytecode.
-                                </h4>
-                            </div>
-                            <div class="why_metaverse_cards_child">
-                                <div class="why_metaverse_cards_child_top">
-                                    <img
-                                        draggable="false"
-                                        src="./images/insurance.svg"
-                                        alt="Insurance"
-                                    />
-                                    <h3>SECURITY</h3>
-                                </div>
-                                <h4>
-                                    Proof of Work (POW) to dictate block authoring and
-                                    Grandpa finality. There is no voting or validating
-                                    committee through Proof of Stake (POS) as the entire
-                                    network will validate each block. Thus, the system
-                                    will not only be able to mitigate 51 % attack, but
-                                    also provide a uniform distribution of mining reward
-                                    to the stakeholders and investors.
-                                </h4>
-                            </div>
-                            <div class="why_metaverse_cards_child">
-                                <div class="why_metaverse_cards_child_top">
-                                    <img
-                                        draggable="false"
-                                        src="./images/Puzzle_2_.svg"
-                                        alt="Puzzle_2"
-                                    />
-                                    <h3>SCALABILITY</h3>
-                                </div>
-                                <h4>
-                                    Metaverse utilizes the Substrate modular framework
-                                    for higher scalability, long term expansion and
-                                    support to connect decentralized applications,
-                                    services and allow other independent blockchains to
-                                    connect, exchange information and transactions at a
-                                    lower cost.
-                                </h4>
-                            </div>
-                        </div> -->
-                        <a href="#"> read whilepaper </a>
-
-                    </div>
-			</div>
-            <div class="why_metaverse bg-dark color-white">
-                <div class="grid">
-                    <div class="row">
-                        <div class="why_metaverse_title">
-                            <h1>GETTING started</h1>
-                        </div>
-                        <div class="why_metaverse_content">
-                            <p>
-                                In order to navigate the Metaverse, you will first create need your own digital identity or Avatar. Once you have your Avatar you are able to interact with different features and applications within this decentralized universe.
-                            </p>
-                            <p>If you are not a navigator but an architect, please visit our <a class="why_metaverse-link" href="#">developer docs</a> to get started.
-                                Or if you are a miner or a node operator, please <a class="why_metaverse-link" href="#">start here</a></p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="why_metaverse_content">
-                            
-                        </div>
-                        <a href="#"> read whilepaper </a>
-                    </div>
-                </div>
-			</div>
-            <div class="why_metaverse">
-                <div class="grid">
-                    <div class="row">
-                        <div class="why_metaverse_title">
-                            <h1>TRY METAVERSE</h1>
-                        </div>
-                        <div class="why_metaverse_content">
-                            <p>
-                                Sometimes the best way to learn is to try out the products! Check out the Web Wallet or Block Explorer
-                            </p>
-                        </div>
-                    </div>
-                </div>
-			</div>
+			
+			<footer class="footer">
+				<div class="footer_icon">
+					<i class="fa-brands fa-facebook-square"></i>
+					<i class="fa-brands fa-twitter-square"></i>
+				</div>
+				<p class="footer_title">©️2022 by Metaverse.</p>
+			</footer>
 		</main>
-		<footer class="footer">
-			<div class="footer_icon">
-				<i class="fa-brands fa-facebook-square"></i>
-				<i class="fa-brands fa-twitter-square"></i>
+		<div id="menu" class="slide-out-from-right k-flex alignt-center menu-disable">
+			<div id="close-menu" class="close-menu k-flex alignt-center justify-center">
+				<i class="fa fa-times" aria-hidden="true"></i>
 			</div>
-			<p class="footer_title">©️2022 by Metaverse.</p>
-		</footer>
+			<div class="inner-wrap">
+				<div class="inner">
+					<div class="menu-contaier">
+						<ul class="navbar_parent">
+							<li class="navbar_child option-disable">
+								<a href="#" class="navbar_title"> ecosystem </a>
+								<ul class="subnav ">
+									<li class="subnav_child">
+										<a href="#">wallet</a>
+									</li>
+									<li class="subnav_child">
+										<a href="#">explorer</a>
+									</li>
+									<li class="subnav_child">
+										<a href="#">gene finace</a>
+									</li>
+									<li class="subnav_child">
+										<a href="#">stickers</a>
+									</li>
+								</ul>
+								<div class="navbar_child_line"></div>
+								<span class="ocm-dropdown-arrow">
+									<i class="fa fa-angle-down"></i>
+								</span>
+							</li>
+							<li class="navbar_child option-disable">
+								<a href="#" class="navbar_title"> documents </a>
+								<ul class="subnav ">
+									<li class="subnav_child">
+										<a href="#">developer docs</a>
+									</li>
+									<li class="subnav_child">
+										<a href="#">whitepaper v3</a>
+									</li>
+									<li class="subnav_child">
+										<a href="#">digital identity whitepaper</a>
+									</li>
+									<li class="subnav_child">
+										<a href="#">pillars of creation whitepaper</a>
+									</li>
+									<li class="subnav_child"><a href="#">github</a></li>
+								</ul>
+								<div class="navbar_child_line"></div>
+								<span class="ocm-dropdown-arrow">
+									<i class="fa fa-angle-down"></i>
+								</span>
+							</li>
+							<li class="navbar_child option-disable">
+								<a href="#" class="navbar_title"> community </a>
+								<ul class="subnav ">
+									<li class="subnav_child"><a href="#">learn</a></li>
+								</ul>
+								<div class="navbar_child_line"></div>
+								<span class="ocm-dropdown-arrow">
+									<i class="fa fa-angle-down"></i>
+								</span>
+							</li>
+							<li class="navbar_child option-disable">
+								<a href="#" class="navbar_title"> legacy chain </a>
+								<ul class="subnav ">
+									<li class="subnav_child"><a href="#">wallet</a></li>
+									<li class="subnav_child">
+										<a href="#">explorer</a>
+									</li>
+								</ul>
+								<div class="navbar_child_line"></div>
+								<span class="ocm-dropdown-arrow">
+									<i class="fa fa-angle-down"></i>
+								</span>
+							</li>
+							<li class="navbar_child option-disable">
+								<a href="./foundation.html" class="navbar_title">
+									foundation
+								</a>
+								<div class="navbar_child_line"></div>
+								<span class="ocm-dropdown-arrow">
+									<i class="fa fa-angle-down"></i>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="background">
+
+		</div>
 	</body>
+	<script src="./static/js/style.js"></script>
 </html>

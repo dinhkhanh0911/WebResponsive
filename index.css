@@ -3,6 +3,9 @@
   height: 100%;
   position: relative;
   display: block;
+  z-index: 10;
+  overflow: hidden;
+  background-color: #fff;
 }
 
 .container .intro_container {
@@ -105,6 +108,8 @@
 
 .container .why_metaverse_title {
   margin-bottom: 58px;
+  display: block;
+  width: 100%;
 }
 
 .container .why_metaverse_title h1 {
