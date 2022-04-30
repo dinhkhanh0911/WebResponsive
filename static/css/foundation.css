@@ -28,7 +28,7 @@
 }
 
 .m_button.button_primary {
-    width: 40%;
+    width: 30%;
     background-color: #09b1ed;
     /* text-transform: uppercase; */
     border: none;
@@ -331,13 +331,14 @@
 .standard_section.contact_section .sending_contact {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     margin: 10px 0;
 }
 
 .standard_section.contact_section .sending_contact .description {
     margin: 5px 0;
     color: #004d7d;
+    height: fit-content;
 }
 
 .standard_section.contact_section .sending_contact .form {
