@@ -433,7 +433,7 @@ input {
 
 @media (min-width: 1113px) {}
 
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 740px) and (max-width: 1000px) {
     .content_wrap {
         padding: 0px 20px;
     }

@@ -1,12 +1,11 @@
-
-
-
-
 /* .navbar_child:hover>.subnav{
     display: block;
 } */
+
+
 /*body*/
-.container .why_metaverse .why_metaverse_content .why_metaverse-link{
+
+.container .why_metaverse .why_metaverse_content .why_metaverse-link {
     border: none;
     color: #09b1ed;
     font-size: 21px;
@@ -15,44 +14,304 @@
     margin: 0;
     padding: 0;
 }
-.container .why_metaverse .why_metaverse_content .why_metaverse-link:hover{
+
+.container .why_metaverse .why_metaverse_content .why_metaverse-link:hover {
     background-color: unset;
     color: #fff;
 }
-.why_metaverse_block{
+
+.why_metaverse_block {
     border: 1px solid #c7c7c7;
     padding: calc(1245px * 0.05);
     box-shadow: 1px 3px 3px #c7c7c7;
-    
 }
 
-.btn-container{
+.btn-container {
     width: 100%;
 }
 
+
+/*why metaverse*/
+
+.why_metaverse.started {
+    padding: 130px 0;
+    margin-bottom: 1.5rem;
+    height: auto;
+    z-index: 11;
+}
+
+.why_metaverse.started a {
+    border: none;
+    color: #09b1ed;
+    font-size: 21px;
+    text-transform: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.why_metaverse.started a:hover {
+    background-color: unset;
+    border: unset;
+}
+
+.why_metaverse.started .title {
+    text-transform: uppercase;
+    font-size: 26.25px;
+    font-weight: 700;
+}
+
+.why_metaverse.started .inner_row {
+    margin-top: 25px;
+    padding: 40px 40px 30px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.why_metaverse.started .inner_row .description>p {
+    font-size: 20px;
+}
+
+.why_metaverse.started .inner_row .icon {
+    height: 131px;
+    width: 131px;
+    min-height: 131px;
+    min-width: 131px;
+    margin-right: 40px;
+}
+
+.why_metaverse.started .inner_row .icon.membership {
+    background: url("../../images/membership2.svg") no-repeat;
+}
+
+.why_metaverse.started .inner_row .icon.token_coin {
+    background: url("../../images/TokenCoin.svg") no-repeat;
+}
+
+.why_metaverse.started .inner_row .icon.embassy {
+    background: url("../../images/embassy.svg") no-repeat;
+}
+
+
+/* standerd_section .contact_section*/
+
+.standard_section.contact_section {
+    padding: 130px 10px 0 10px;
+    margin-bottom: 1.5rem;
+    height: auto;
+    z-index: 11;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.standard_section.contact_section .contact_info .contact_logo {
+    display: flex;
+    border-bottom: 3px solid #6EC1E4;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding-bottom: 20px;
+}
+
+.standard_section.contact_section .contact_info .contact_logo .cooperation_logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.standard_section.contact_section .contact_info .contact_logo .cooperation_logo .logo_link {
+    min-width: 45px;
+    height: 45px;
+    min-height: 45px;
+    width: 45px;
+    background-color: #00b0eb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin: 5px;
+}
+
+.standard_section.contact_section .contact_info .contact_logo .cooperation_logo .logo_link>i {
+    color: #fff;
+}
+
+.standard_section.contact_section .contact_info .contact_logo .metaverse_logo {
+    background: url("../../images/Metaverse_Logo_2.svg") no-repeat 0 0;
+    min-height: 100px;
+}
+
+.standard_section.contact_section .contact_info .orther_info {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.standard_section.contact_section .contact_info .orther_info .title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #004d7d;
+    text-transform: uppercase;
+}
+
+.standard_section.contact_section .contact_info .orther_info .link>a {
+    font-size: 16px;
+    color: #004d7d;
+    text-transform: uppercase;
+}
+
+.standard_section.contact_section .sending_contact {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 10px 0;
+}
+
+.standard_section.contact_section .sending_contact .description {
+    margin: 5px 0;
+    color: #004d7d;
+    height: fit-content;
+}
+
+.standard_section.contact_section .sending_contact .form {
+    margin: 5px 0;
+    color: #004d7d;
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.standard_section.contact_section .sending_contact .description .form button,
+input {
+    margin: 5px 0;
+}
+
+
+/*footer widget*/
+
+.footer_widget {
+    height: 90px;
+    padding: 20px 0;
+    text-align: start;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_widget p {
+    color: #777777;
+    font-size: 12px;
+}
+
+
+/*button*/
+
+.m_button {
+    height: 40px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.m_button:hover {
+    border: 2px solid #e6e6e6;
+}
+
+.m_button.join_community {
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.m_button.button_primary {
+    width: 30%;
+    background-color: #09b1ed;
+    /* text-transform: uppercase; */
+    border: none;
+    color: #fff;
+    padding: 0;
+    height: 32px;
+}
+
+
+/*input*/
+
+.m_input {
+    height: 48px;
+    padding: 10px;
+    border: 2px solid #09b1ed;
+    border-radius: 4px;
+}
+
+.m_input.contact_input {
+    width: 100%
+}
+
 @media (max-width: 1000px) {
-    .marterial-open{
-        height:791px;
+    .marterial-open {
+        height: 791px;
     }
-    .header{
+    .header {
         height: unset;
         padding: 12px 0;
         display: flex;
         align-items: center;
     }
-    .header a{
+    .header a {
         display: block;
     }
-    .header a img{
+    .header a img {
         height: 24px;
         display: block;
     }
-    .navbar{
+    .navbar {
         display: none;
     }
     .why_metaverse_block {
-       
         margin-bottom: 20px;
         padding: 70px 40px!important;
     }
 }
+
+@media (max-width: 740px) {
+    /*standard_section .started*/
+    .why_metaverse.started {
+        padding: 4vh 0;
+    }
+    .why_metaverse.started .inner_row {
+        display: block;
+    }
+    .why_metaverse.started .inner_row .description {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 1113px) {}
+
+@media (min-width: 740px) and (max-width: 1000px) {
+    .content_wrap {
+        padding: 0px 20px;
+    }
+    /*standard_section .started*/
+    .why_metaverse.started {
+        padding: 4vh 0;
+    }
+    .why_metaverse.started .inner_row {
+        display: block;
+    }
+    .why_metaverse.started .inner_row .description {
+        padding-top: 20px;
+    }
+    .intro_container .intro_img_earth {
+        width: 229px;
+        height: 229px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {}
