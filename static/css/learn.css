@@ -4,7 +4,16 @@
 
 
 /*body*/
-
+.container .why_metaverse{
+    padding: 80px 0px;
+}
+.row{
+    width: 100%;
+    justify-content: space-between;
+}
+.container .block{
+    display: block;
+}
 .container .why_metaverse .why_metaverse_content .why_metaverse-link {
     border: none;
     color: #09b1ed;
@@ -237,7 +246,77 @@ input {
     padding: 0;
     height: 32px;
 }
+/*standard_section .community_section*/
 
+.standard_section.community_section {
+    min-height: 450px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.standard_section.community_section .background {
+    background-color: #08163a;
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-height: 450px;
+}
+
+.standard_section.community_section .community_info {
+    min-height: 450px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.standard_section.community_section .community_info .title {
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    text-align: center;
+    line-height: 37px;
+    font-weight: 700;
+    font-size: 37px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.standard_section.community_section .community_info .button_group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.standard_section.community_section .community_info .learn {
+    margin: 10px;
+}
+
+.standard_section.community_section .community_info .learn>a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.standard_section.community_section .community_img {
+    min-height: 450px;
+    max-height: 450px;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.standard_section.community_section .community_img>img {
+    min-height: inherit;
+    max-height: inherit;
+}
 
 /*input*/
 
@@ -258,7 +337,6 @@ input {
     }
     .header {
         height: unset;
-        padding: 12px 0;
         display: flex;
         align-items: center;
     }
@@ -289,6 +367,28 @@ input {
     .why_metaverse.started .inner_row .description {
         padding-top: 20px;
     }
+
+    /*standard_section .community_section*/
+    .standard_section.community_section {
+        min-height: 350px;
+        max-height: 350px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .standard_section.community_section .background {
+        min-height: 350px;
+    }
+    .standard_section.community_section .community_img {
+        min-height: 200px;
+        max-height: 200px;
+    }
+    .standard_section.community_section .community_info {
+        min-height: 200px;
+        max-height: 200px;
+    }
 }
 
 @media (min-width: 1113px) {}
@@ -312,6 +412,32 @@ input {
         height: 229px;
         margin-top: 50px;
     }
+
+    /*standard_section .community_section*/
+    .standard_section.community_section {
+        min-height: 450px;
+        max-height: 450px;
+        /* display: flex;
+        overflow: hidden;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-start; */
+    }
+    .standard_section.community_section .background {
+        min-height: 450px;
+    }
+    .standard_section.community_section .community_img {
+        min-height: 300px;
+        max-height: 300px;
+    }
+    .standard_section.community_section .community_info {
+        min-height: 300px;
+        max-height: 300px;
+    }
 }
 
-@media (min-width: 1024px) and (max-width: 1239px) {}
+@media (min-width: 1000px) and (max-width: 1017px) {
+    .col{
+        padding: 0;
+    }
+}
